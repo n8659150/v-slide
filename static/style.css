@@ -52,3 +52,9 @@
     font-family: 'PingFang-SC-UltraLight', '微软雅黑', '宋体';
     text-decoration: none;
 }
+
+.toppingTitle {
+    font-size:48px;
+    font-weight: bolder;
+    color: red;
+}

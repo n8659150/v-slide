@@ -4,30 +4,30 @@
     <full-page ref="fullpage" id="fullpage" :options="options">
       <div class="section">
         <!-- cover -->
-        <Cover :slideTitle="slideConfig.slideTitle" :authorName="slideConfig.authorName"></Cover>
+        <Cover toppingTitle="VUE.JS INTRO" :slideTitle="slideConfig.slideTitle" :authorName="slideConfig.authorName"></Cover>
       </div>
       <div class="section">
         <div class="slide">
-          <SingleTitlePage content="大 纲"></SingleTitlePage>
+          <SingleTitlePage toppingTitle="OVERVIEW" content="大 纲"></SingleTitlePage>
         </div>
         <div class="slide">
           <div>
-            <SingleTitlePage content="Vue.js 简介"></SingleTitlePage>
+            <SingleTitlePage toppingTitle="INTRO" content="Vue.js 简介"></SingleTitlePage>
           </div>
         </div>
         <div class="slide">
           <div>
-            <SingleTitlePage content="Vue.js 生态圈"></SingleTitlePage>
+            <SingleTitlePage toppingTitle="ECOSYSTEM" content="Vue.js 生态圈"></SingleTitlePage>
           </div>
         </div>
         <div class="slide">
           <div>
-            <SingleTitlePage content="Vue.js CLI + 项目结构简介"></SingleTitlePage>
+            <SingleTitlePage toppingTitle="PROJECT STRUCTURE" content="项目结构简介"></SingleTitlePage>
           </div>
         </div>
         <div class="slide">
           <div>
-            <SingleTitlePage content="在线翻译App 源代码分析"></SingleTitlePage>
+            <SingleTitlePage toppingTitle="DEMO SOURCECODE" content="Demo源代码分析"></SingleTitlePage>
           </div>
         </div>
       </div>
@@ -64,9 +64,9 @@ export default {
                 sectionsColor: []
             },
             slideConfig:{
-              slideTitle:"Vue.js初探 - 在线翻译App",
+              slideTitle:"Vue.js初探",
               authorName:"Jack Li",
-              dotPointContents:["Vue.js 简介","Vue.js 生态圈","Vue.js CLI + 项目结构简介","在线翻译App 源代码分析"]
+              dotPointContents:["Vue.js 简介","Vue.js 生态圈","项目结构简介","Demo源代码分析"]
             },
 
         };
@@ -75,4 +75,11 @@ export default {
 </script>
 
 <style>
+/* #app {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+} */
 </style>
