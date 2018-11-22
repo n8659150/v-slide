@@ -8,35 +8,90 @@
       </div>
       <div class="section">
         <div class="slide">
-          <SingleTitlePage toppingTitle="OVERVIEW" content="大 纲"></SingleTitlePage>
+          <SingleTitlePage toppingTitle="OVERVIEW" :contentArray="['大 纲']"></SingleTitlePage>
         </div>
         <div class="slide">
           <div>
-            <SingleTitlePage toppingTitle="INTRO" content="Vue.js 简介"></SingleTitlePage>
+            <SingleTitlePage toppingTitle="INTRO" :contentArray="['Vue.js 简介']"></SingleTitlePage>
           </div>
         </div>
         <div class="slide">
           <div>
-            <SingleTitlePage toppingTitle="ECOSYSTEM" content="Vue.js 生态圈"></SingleTitlePage>
+            <SingleTitlePage toppingTitle="ECOSYSTEM" :contentArray="['Vue.js 生态圈']"></SingleTitlePage>
           </div>
         </div>
         <div class="slide">
           <div>
-            <SingleTitlePage toppingTitle="PROJECT STRUCTURE" content="项目结构简介"></SingleTitlePage>
+            <SingleTitlePage toppingTitle="PROJECT STRUCTURE" :contentArray="['项目结构简介']"></SingleTitlePage>
           </div>
         </div>
         <div class="slide">
           <div>
-            <SingleTitlePage toppingTitle="DEMO SOURCECODE" content="Demo源代码分析"></SingleTitlePage>
+            <SingleTitlePage toppingTitle="DEMO SOURCECODE" :contentArray="['Demo源代码分析']"></SingleTitlePage>
           </div>
         </div>
       </div>
-      <div class="section">
+      <!-- <div class="section">
        <DotPointPage pageTitle="大 纲" dotPointStyle="-" :contentArray="slideConfig.dotPointContents"></DotPointPage>
+      </div> -->
+      <div class="section">
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="INTRO" :contentArray="['Vue.js 简介']"></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="SINCE 2014" :contentArray="['2014年','尤雨溪']"></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="HIGHLIGHTS" :contentArray="['MVVM','V-DOM','模块化']"></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="WHY VUE.JS" :contentArray="['AngularJS指令', '+ React模块化', '= Vue.js']"></SingleTitlePage>
+          </div>
+        </div>
       </div>
       <div class="section">
-        <MainContentPage mainTitle="Vue CLI" subTitle="Vue 官方推荐的项目脚手架工具" description1="小标题及文字内容" description2="副文字内容" buttonText="查看源码" buttonLink="http://www.jackyangli.com"></MainContentPage>
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="ECOSYSTEM" :contentArray="['Vue.js 生态圈']"></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="SCAFFOLDING" :contentArray="['Vue CLI', '- 项目脚手架工具']"></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="ROUTER" :contentArray="['Vue-Router', '- 路由库']"></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="HTTP REQUEST PACK" :contentArray="['Vue-resource', '- Vue.js 1.x http库']"></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="HTTP REQUEST PACK" :contentArray="['Axios', '- Vue.js 2.x http库']"></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage toppingTitle="3RD PARTY COMPONENT LIBS" :contentArray="['element-ui、at-ui...', '- UI组件库']"></SingleTitlePage>
+          </div>
+        </div>
       </div>
+      
+      <!-- <div class="section">
+        <MainContentPage mainTitle="Vue CLI" subTitle="Vue 官方推荐的项目脚手架工具" description1="小标题及文字内容" description2="副文字内容" buttonText="查看源码" buttonLink="http://www.jackyangli.com"></MainContentPage>
+      </div> -->
     </full-page>
   </div>
 </template>

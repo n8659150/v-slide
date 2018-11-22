@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="title3 toppingTitle">{{toppingTitle}}</div>
-    <div class="single-title-page">{{content}}</div>
+     <div v-for="(content,index,$key) in contentArray" :key="$key">
+        <div class="single-title-page">{{content}}</div>
+     </div>
     <div class="title2">&nbsp;</div>
   </div>
 </template>
@@ -14,7 +16,7 @@ export default {
             msg: ""
         };
     },
-    props: ["content","subTitle","toppingTitle"]
+    props: ["contentArray","subTitle","toppingTitle"]
 };
 </script>
 
