@@ -2,7 +2,7 @@
   <div>
     <div class="title3 toppingTitle">{{toppingTitle}}</div>
      <div v-for="(content,index,$key) in contentArray" :key="$key">
-        <div class="single-title-page">{{content}}</div>
+        <div :style="{fontSize: content.fontSize + 'px'}">{{content.text}}</div>
      </div>
     <div class="title2">&nbsp;</div>
   </div>
@@ -22,8 +22,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.single-title-page {
-    font-size: 180px;
-}
-
 </style>
