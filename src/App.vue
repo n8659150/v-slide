@@ -33,10 +33,7 @@
         </div>
       </div>
 
-      <!-- <div class="section">
-       <DotPointPage page-title="大 纲" dot-point-style="-" :content-array="slideConfig.dotPointContents"></DotPointPage>
-      </div> -->
-
+      <!-- intro  -->
       <div class="section">
         <div class="slide">
           <div>
@@ -65,6 +62,7 @@
         </div>
       </div>
 
+      <!-- ecosystem -->
       <div class="section">
         <div class="slide">
           <div>
@@ -98,6 +96,7 @@
         </div>
       </div> 
       
+      <!-- project structure -->
       <div class="section">
         <div class="slide">
           <div>
@@ -183,8 +182,7 @@ export default {
                 licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
                 scrollBar: false,
                 navigation: true,
-                controlArrows: false,
-                sectionsColor: []
+                controlArrows: false
             },
             slideConfig:{
               slideTitle:"Vue.js初探",
@@ -198,11 +196,4 @@ export default {
 </script>
 
 <style>
-/* #app {
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-} */
 </style>
