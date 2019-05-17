@@ -1,6 +1,6 @@
 <template>
     <!-- content page -->
-    <div>
+    <div class="slide">
         <div class="title1">{{mainTitle}}</div>
         <div class="title2">{{subTitle}}</div>
         <div class="title3">
