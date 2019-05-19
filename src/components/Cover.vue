@@ -23,7 +23,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .slide-title {
-    font-size: 180px;
+    font-size: 140px;
 }
 
 .author-title {
