@@ -7,7 +7,8 @@
           toppingTitle="Translation App In 30 Mins"
           :slideTitle="slideConfig.slideTitle"
           :authorName="slideConfig.authorName"
-        ></Cover>
+        >
+        </Cover>
       </div>
       <div class="section">
         <div class="slide">
@@ -133,6 +134,48 @@
         </div>
       </div>
 
+      <div class="section">
+        <div class="slide">
+          <div>
+            <SingleTitlePage
+              toppingTitle="SHU AND TAO"
+              :contentArray="[{text:'术与道',fontSize:'150'}]"
+            ></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage
+              toppingTitle="MVP"
+              :contentArray="[{text:'DEMO你的想法',fontSize:'150'}, {text:'- Minimum Valuable Product',fontSize:'60'}]"
+            ></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage
+              toppingTitle="FAIL FAST"
+              :contentArray="[{text:'快速试错', fontSize:'150'}, {text:'- 不求对，只求不错', fontSize:'60'}]"
+            ></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage
+              toppingTitle="PROTOTYPE"
+              :contentArray="[{text:'输入 -> 翻译 -> 输出', fontSize:'150'}, {text:'- 翻译软件原理', fontSize:'60'}]"
+            ></SingleTitlePage>
+          </div>
+        </div>
+        <div class="slide">
+          <div>
+            <SingleTitlePage
+              toppingTitle="SOLUTION"
+              :contentArray="[{text:'Input - API - Output',fontSize:'150'}]"
+            ></SingleTitlePage>
+          </div>
+        </div>
+      </div>
       
       <!-- <div class="section">
         <MainContentPage
