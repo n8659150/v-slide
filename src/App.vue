@@ -176,17 +176,24 @@
           </div>
         </div>
       </div>
-      
-      <!-- <div class="section">
+
+      <div class="section">
+        <div class="slide">
+          <div>
+            <SingleTitlePage
+              toppingTitle="SHOW ME THE CODE"
+              :contentArray="[{text:'放码过来',fontSize:'150'}]"
+            ></SingleTitlePage>
+          </div>
+        </div>
         <MainContentPage
-          mainTitle="Vue CLI"
-          subTitle="Vue 官方推荐的项目脚手架工具"
-          description1="小标题及文字内容"
-          description2="副文字内容"
+          mainTitle="V-Trans"
+          subTitle="基于 Vue 和 Yandex 的翻译 APP"
           buttonText="查看源码"
-          buttonLink="http://www.jackyangli.com"
-        ></MainContentPage>
-      </div> -->
+          buttonLink="https://codesandbox.io/s/xpjoq3wyyp"
+          >
+        </MainContentPage>
+      </div>
     </full-page>
   </div>
 </template>
